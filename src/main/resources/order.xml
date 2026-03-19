@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VehicleOrder>
+    <OrderIdentification>
+        <OrderNumber>ORD-2024-00123</OrderNumber>
+        <ReferenceNumber>REF-456789</ReferenceNumber>
+        <DealerOrderNumber>DLR-9876</DealerOrderNumber>
+    </OrderIdentification>
+    <OrderDetails>
+        <Type>FLEET</Type>
+        <Status>IN_PRODUCTION</Status>
+        <OrderDate>2024-01-15</OrderDate>
+        <EstimatedDeliveryDate>2024-03-15</EstimatedDeliveryDate>
+    </OrderDetails>
+    <Vehicle>
+        <VIN>1HGBH41JXMN109186</VIN>
+        <Model>Explorer</Model>
+        <Year>2026</Year>
+        <BodyStyle>SUV</BodyStyle>
+        <Color>STAR WHITE</Color>
+    </Vehicle>
+    <Manufacturing>
+        <ProductionPlant>PLANT-TX-01</ProductionPlant>
+        <ProductionLine>LINE-A</ProductionLine>
+        <ScheduledBuildDate>2024-02-10</ScheduledBuildDate>
+        <ActualBuildDate>2024-02-25</ActualBuildDate>
+        <ReleaseDate>2024-03-01</ReleaseDate>
+    </Manufacturing>
+    <DistributionDealer>
+        <DealerCode>DLR-US-055</DealerCode>
+        <DealerName>Coastal Motors</DealerName>
+        <Region>DOMESTIC</Region>
+        <Country>USA</Country>
+    </DistributionDealer>
+    <Shipping>
+        <OriginPoint>WAREHOUSE-TX</OriginPoint>
+        <DestinationPoint>WAREHOUSE-CA</DestinationPoint>
+        <TransportMode>TRUCK</TransportMode>
+    </Shipping>
+</VehicleOrder>
